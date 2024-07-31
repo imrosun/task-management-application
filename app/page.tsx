@@ -1,10 +1,14 @@
-import Login from "@/components/Login";
-import Image from "next/image";
+"use client"
+import Login from "@/app/signin/page";
 
-export default function Home() {
+interface TaskModalProps {
+  closeModal: () => void;
+  openModal: () => void;
+}
+
+export default function Home({closeModal, openModal}: TaskModalProps) {
   return (
-    <main>
-      <Login/>
-    </main>
+    <Login />
   );
 }
+
