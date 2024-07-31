@@ -29,6 +29,7 @@ interface SignupResponse {
 export const login = async (data: LoginData): Promise<LoginResponse> => {
     try {
         const response = await axios.post(`${BASE_URL}/users/login`, data);
+        // const response = await axios.post('https://your-vercel-deployment-url.vercel.app/api/users/login', data);
         
         return response.data;
     } catch (error) {
