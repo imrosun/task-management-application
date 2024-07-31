@@ -2,7 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Install dependencies 
+First, clone this frontend repository:
+
+```bash
+git clone https://github.com/imrosun/task-management-application.git
+# or 
+download zip from Green background <> Code.
+```
+
+Second, clone backend repository:
+
+```bash
+git clone 
+# or 
+download zip from Green background <> Code.
+```
+
+Third, Install dependencies on both frontend and backend: 
 
 ```bash
 npm install 
@@ -10,16 +26,17 @@ npm install
 yarn install
 ```
 
-First, run the development server:
+Fourth, run the development server:
 
 ```bash
+# backend
+node server.js
+# or 
+nodeman server.js
+# frontend
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
