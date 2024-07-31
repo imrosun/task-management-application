@@ -7,15 +7,15 @@ First, clone this frontend repository:
 ```bash
 git clone https://github.com/imrosun/task-management-application.git
 # or 
-download zip from Green background <> Code.
+download zip from Green background <> Code button.
 ```
 
 Second, clone backend repository:
 
 ```bash
-git clone 
+git clone https://github.com/imrosun/task-management-backend.git
 # or 
-download zip from Green background <> Code.
+download zip from Green background <> Code button.
 ```
 
 Third, Install dependencies on both frontend and backend: 
