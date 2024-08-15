@@ -43,15 +43,17 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Screenshots:
+Deployed [https://task-management-application-imrosuns-projects.vercel.app/]
+
+## Screenshots:
+
+![Dashboard](app/screenshots/signup.png)
 
 ![Dashboard](app/screenshots/Login.png)
 
 ![Dashboard](app/screenshots/Dashboard.png)
 
 ![Dashboard](app/screenshots/TaskModal.png)
-
-![Dashboard](app/screenshots/signup.png)
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
