@@ -176,7 +176,6 @@ export default function Task_modal({ closeModal, status, onTaskAdded }: TaskModa
                         value={priority}
                         onChange={(e) => setPriority(e.target.value)}
                         className="w-full text-[#999999] focus:outline-none"
-                        required
                     />
                 </div>
 
@@ -198,7 +197,6 @@ export default function Task_modal({ closeModal, status, onTaskAdded }: TaskModa
                         onChange={(e) => setDeadline(e.target.value)}
                         className="w-full text-[#999999] focus:outline-none"
                         min={new Date().toISOString().split("T")[0]} 
-                        required
                     />
                 </div>
 
@@ -216,7 +214,6 @@ export default function Task_modal({ closeModal, status, onTaskAdded }: TaskModa
                         value={description}
                         onChange={(e) => setDescription(e.target.value)}
                         className="w-full text-[#999999] focus:outline-none"
-                        required
                     />
                 </div>
 
